@@ -1,23 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './image.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit src/App.js and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dont Learn 
-        </a>
+        <img src={logo} className="App-logo-circle" alt="White cross, with a blue bacground spining" />
+        <p>Hello, and welcome to the begining of the Swiss Plus Website. <strong>We hope you enjoy your stay</strong></p>
       </header>
     </div>
   );

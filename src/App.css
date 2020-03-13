@@ -8,8 +8,9 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo-circle {
+    border-radius: 50%;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
