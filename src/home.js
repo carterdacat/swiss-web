@@ -20,8 +20,8 @@ function Homepg() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} style={animationStyle} className="App-logo-circle" alt="White cross, with a blue bacground spining" id='spinnerLogo'/>
-        <p>Hello, and welcome to the begining of the Swiss Plus Website. <strong>We hope you enjoy your stay</strong></p>
+      <img key={speed} src={logo} style={animationStyle} className="App-logo-circle" id='spinnerLogo' alt="Spinning logo"/>         
+      <p>Hello, and welcome to the begining of the Swiss Plus Website. <strong>We hope you enjoy your stay</strong></p>
         <button className='App-button' id='fastLogoButton' onClick={faster}>Increase Spin Speed!</button>
         <button className='App-button' id='slowLogoButton' onClick={slower}>Decrease Spin Speed!</button>
       </header>
